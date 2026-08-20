@@ -4,6 +4,7 @@ An interactive personal finance dashboard built with **Python**, **Dash**, and *
 
 For the purposes of this demo, an excel document, "ynab_dashboard_data.xlsx", has been provided that contains mock data used to populate the visuals for the dashboard.
 
+<img width="1365" height="1224" alt="dashboard_demo" src="https://github.com/user-attachments/assets/ae804400-3f4e-45d9-8e37-cd10bf5de810" />
 
 ---
 
