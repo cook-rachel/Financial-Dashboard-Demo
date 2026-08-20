@@ -7,7 +7,7 @@ For the purposes of this demo, an excel document, "ynab_dashboard_data.xlsx", ha
 
 ---
 
-### How to Use:
+### How to Use
 
 1. Download or clone the repository.
 2. Open the project folder in your preferred IDE.
@@ -27,7 +27,7 @@ For the purposes of this demo, an excel document, "ynab_dashboard_data.xlsx", ha
 
 ---
 
-### Key Features:
+### Key Features
 
 - **Dynamic Date Filtering**: 
 	- Interactive calendar that allows for specific date range selection.
@@ -52,13 +52,14 @@ For the purposes of this demo, an excel document, "ynab_dashboard_data.xlsx", ha
 
 ---
 
-### Included Files:
+### Included Files
 
 ```text
 ├── Personal_Finance_Dashboard.py       # Main Dash application, UI layout, and reactive callbacks
 ├── ynab_dashboard_data.xlsx      	# Source data workbook (Accounts, Summaries, Transactions, Goals)
 ├── requirements.txt              	# Python package dependencies
 └── README.md                     	# Project documentation and setup guide
+```
 
 ---
 
