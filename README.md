@@ -2,7 +2,7 @@
 
 An interactive personal finance dashboard built with **Python**, **Dash**, and **Plotly**. This dashboard connects directly to exported YNAB (You Need A Budget) financial data to provide comprehensive insights into cash flow, savings rates, debt-to-income (DTI) metrics, and cumulative progress toward long-term financial milestones. 
 
-For the purposes of this demo, an excel document, "ynab_dashboard_data.xlsx", has been provided that contains mock data used to populate the visuals of the dashboard.
+For the purposes of this demo, an excel document, "ynab_dashboard_data.xlsx", has been provided that contains mock data used to populate the visuals for the dashboard.
 
 
 ---
@@ -11,17 +11,17 @@ For the purposes of this demo, an excel document, "ynab_dashboard_data.xlsx", ha
 
 1. Download or clone the repository.
 2. Open the project folder in your preferred IDE.
-3. Open Personal_Finance.py and set up your environment with the required dependencies
+3. Open Personal_Finance.py and set up your environment with the required dependencies:
 
-```python
-pip install -r requirements.txt
-```
+	```python
+	pip install -r requirements.txt
+	```
 
-4. Launch the dashboard application locally
+4. Launch the dashboard application locally:
 
-```python
-Python Personal_Finance.Dashboard.py
-```
+	```python
+	Python Personal_Finance.Dashboard.py
+	```
 
 5. Open your web browser and paste the provided URL printed in the terminal.
 
