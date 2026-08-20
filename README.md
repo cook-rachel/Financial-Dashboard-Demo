@@ -10,7 +10,7 @@ For the purposes of this demo, an excel document, "ynab_dashboard_data.xlsx", ha
 ### How to Use
 
 1. Download or clone the repository.
-2. Open the project folder in your preferred IDE.
+2. Open the project folder in VS Code or your preferred IDE.
 3. Open Personal_Finance.py and set up your environment with the required dependencies:
 
 	```python
@@ -23,7 +23,7 @@ For the purposes of this demo, an excel document, "ynab_dashboard_data.xlsx", ha
 	Python Personal_Finance.Dashboard.py
 	```
 
-5. Open your web browser and paste the provided URL printed in the terminal.
+5. Paste the provided URL printed in the terminal to a web browser. This dashboard is runs locally (it is not live). Press control + C to quit the application.
 
 ---
 
@@ -55,8 +55,8 @@ For the purposes of this demo, an excel document, "ynab_dashboard_data.xlsx", ha
 ### Included Files
 
 ```text
-├── Personal_Finance_Dashboard.py       # Main Dash application, UI layout, and reactive callbacks
-├── ynab_dashboard_data.xlsx      	# Source data workbook (Accounts, Summaries, Transactions, Goals)
+├── Personal_Finance_Dashboard.py	# Main Dash application
+├── ynab_dashboard_data.xlsx      	# Source data workbook
 ├── requirements.txt              	# Python package dependencies
 └── README.md                     	# Project documentation and setup guide
 ```
