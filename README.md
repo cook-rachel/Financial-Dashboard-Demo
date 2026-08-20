@@ -63,44 +63,45 @@ For the purposes of this demo, an excel document, "ynab_dashboard_data.xlsx", ha
 
 ---
 
-### Required Dependencies:
+### Required Dependencies
 
-Framework: Dash
+Framework: `dash`
 
-Data Visualization: Plotly
+Data Visualization: `plotly`
 
-Data Analysis: Pandas
+Data Analysis: `pandas`
 
-Excel Reader: openpyxl
+Excel Reader: `openpyxl`
 
 ---
 
-### Data Structure:
+### Data Structure
 
 The dashboard expects the workbook to include the following sheets and columns:
 
-*Accounts*: id, name, type, balance_amount, closed, deleted
+**Accounts**: id, name, type, balance_amount, closed, deleted
 
-*Monthly_Summaries*: month (YYYY-MM-DD), income_amount, activity_amount
+**Monthly_Summaries**: month (YYYY-MM-DD), income_amount, activity_amount
 
-*Transactions*: date (YYYY-MM-DD), account_id, account_name, transaction_amount
+**Transactions**: date (YYYY-MM-DD), account_id, account_name, transaction_amount
 
-*Category_Goals*: category_group_name, balance_amount, goal_target_amount
+**Category_Goals**: category_group_name, balance_amount, goal_target_amount
 
 This is the format that can be downloaded via the YNAB API with your personal YNAB token. Mock data has been provided via the ynab_dashboard_data.xlsx file.
 
 ---
 
-### Calculations:
+### Calculations
 
-Net Savings Calculation:
+**Net Savings Calculation:**
+
 $$\text{Savings Amount} = \text{Net Income} - \text{Expenses}$$
 
-Net Savings Rate (%):
+**Net Savings Rate (%):**
 
 $$\text{Savings Rate} = \left( \frac{\sum \text{Net Income} - \sum \text{Expenses}}{\sum \text{Net Income}} \right) \times 100$$
 
-Debt-to-Income (DTI) Ratio (%):
+**Debt-to-Income (DTI) Ratio (%):**
 
 $$\text{DTI} = \left( \frac{\sum \text{Debt Payments}}{\sum \text{Net Income}} \right) \times 100$$
 
