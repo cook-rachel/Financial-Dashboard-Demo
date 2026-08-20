@@ -23,7 +23,11 @@ For the purposes of this demo, an excel document, "ynab_dashboard_data.xlsx", ha
 	Python Personal_Finance.Dashboard.py
 	```
 
-5. Paste the provided URL printed in the terminal to a web browser. This dashboard is runs locally (it is not live). Press control + C to quit the application.
+5. Paste the provided URL printed in the terminal to a web browser. This dashboard is runs locally (it is not live). 
+
+6. Click on the information icon in the banner sections of the dashboard for more information about what the section is displaying.
+
+7. Press control + C to quit the application.
 
 ---
 
